@@ -81,3 +81,14 @@ body {
     border-bottom: 0;
   }
 }
+
+
+/*********************************/
+/********  Custom CSS  ***********/
+/*********************************/
+
+.landing {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+}

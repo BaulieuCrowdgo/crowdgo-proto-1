@@ -24,6 +24,16 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
+      .when('/business', {
+        templateUrl: 'views/business.html',
+        controller: 'BusinessCtrl',
+        controllerAs: 'business'
+      })
+      .when('/investor', {
+        templateUrl: 'views/investor.html',
+        controller: 'InvestorCtrl',
+        controllerAs: 'investor'
+      })
       .otherwise({
         redirectTo: '/'
       });
