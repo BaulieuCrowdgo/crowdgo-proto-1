@@ -14,4 +14,8 @@ angular.module('crowdgoProto1App')
       'AngularJS',
       'Karma'
     ];
+
+    this.testFunction = function() {
+      alert('test');
+    }
   });
